@@ -21,3 +21,6 @@ module.exports = (robot) ->
 
   robot.respond /amnos/gim, (res) ->
     res.send " > amnos!!!"
+    
+  robot.respond /hello/gim, (res) ->
+    res.send " > world!!!"
